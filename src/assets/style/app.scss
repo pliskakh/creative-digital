@@ -1,0 +1,32 @@
+@import "bootstrap-sprockets";
+@import "bootstrap-variables";
+@import "bootstrap-custom";
+
+@import "slick.scss";
+@import "header";
+@import "main";
+@import "map";
+@import "footer";
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+svg{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	@include ba-transition('fill, stroke');
+}
+a,
+[type="submit"],
+[type="button"],
+button,
+.btn{
+	@include ba-transition;
+}
+a{
+	& >	svg{
+		fill: currentColor;
+	}
+}

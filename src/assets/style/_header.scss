@@ -1,0 +1,13 @@
+.ba-header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 9;
+	transition: background-color .3 ease;
+
+	&.ba-stick {
+		background-color: rgba(159, 154, 207, 0.7);
+		transition: background-color .3 ease;
+	}
+}
