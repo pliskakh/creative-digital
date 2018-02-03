@@ -144,9 +144,6 @@ window.onload = initMap;
 			prevArrow: '.ba-team-arrow--prev',
 			nextArrow: '.ba-team-arrow--next'
 		});
-
-
-		createMap();
 	});
 
 })(jQuery);
