@@ -3,7 +3,7 @@
 @import "bootstrap-custom";
 
 @import "slick.scss";
-@import "header";
+
 @import "main";
 @import "map";
 @import "footer";
@@ -30,3 +30,5 @@ a{
 		fill: currentColor;
 	}
 }
+
+@import "header";
